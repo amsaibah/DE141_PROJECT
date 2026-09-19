@@ -1,0 +1,62 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="EECC459F-0D58-176E-D261-EFEDE222D300" name="LOCATION">
+<createdBy>Saheba</createdBy>
+<createdTime>2567-04-20 11:23:49 UTC</createdTime>
+<generatorID>58E8BF17-776C-CEF7-1839-AAC8A1882ED7</generatorID>
+<ownerDesignName>DE141-P-2</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Location_ID" id="2D4F93B8-C535-7373-A727-24A1794306C9">
+<createdBy>Saheba</createdBy>
+<createdTime>2567-04-20 11:23:49 UTC</createdTime>
+<generatorID>6E42FB7F-78D6-82C1-9FCC-277E8A6601E5</generatorID>
+<ownerDesignName>DE141-P-2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Location" id="D1734F55-A31E-E50B-FC57-1B0054459EE9">
+<createdBy>Saheba</createdBy>
+<createdTime>2567-04-20 11:23:49 UTC</createdTime>
+<generatorID>0DF93FB3-A53E-E8A5-7CEE-0C4F74C9BBD5</generatorID>
+<ownerDesignName>DE141-P-2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>150</dataTypeSize>
+<ownDataTypeParameters>150,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Room_No" id="0B2F51FE-C93B-0729-1A20-862871E4760D">
+<createdBy>Saheba</createdBy>
+<createdTime>2567-04-20 11:23:49 UTC</createdTime>
+<generatorID>1B26B16C-1A0B-3D75-0177-187E4421559B</generatorID>
+<ownerDesignName>DE141-P-2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="1D44E6FD-4CA8-55C0-3BA8-BAC52422E5B6" name="LOCATION_PK">
+<createdBy>Saheba</createdBy>
+<createdTime>2567-04-20 11:23:49 UTC</createdTime>
+<generatorID>197ACF2F-1E61-0BAB-E0C2-9DAA1E77F890</generatorID>
+<ownerDesignName>DE141-P-2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2D4F93B8-C535-7373-A727-24A1794306C9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

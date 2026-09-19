@@ -1,0 +1,127 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="07BED274-C868-1DF0-671F-07DAE82DA90E" name="EXAM">
+<createdBy>Saheba</createdBy>
+<createdTime>2567-04-20 11:23:49 UTC</createdTime>
+<generatorID>8519326B-71FD-9921-AD20-6C33560DFCC7</generatorID>
+<ownerDesignName>DE141-P-2</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Exam_ID" id="62C51C05-B7D9-7D8D-71D4-7EE4E2C6A109">
+<createdBy>Saheba</createdBy>
+<createdTime>2567-04-20 11:23:49 UTC</createdTime>
+<generatorID>DE0B47E2-6EB7-22E9-E096-391E994E58F1</generatorID>
+<ownerDesignName>DE141-P-2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Exam_Name" id="9F5EB212-BC4B-2766-A3CA-25FB019E891F">
+<createdBy>Saheba</createdBy>
+<createdTime>2567-04-20 11:23:49 UTC</createdTime>
+<generatorID>29CA37B0-1949-5DDA-8074-00242F4748A4</generatorID>
+<ownerDesignName>DE141-P-2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Exam_Date" id="FFF50D17-B854-04E0-A1C8-61C7925F6AAA">
+<createdBy>Saheba</createdBy>
+<createdTime>2567-04-20 11:23:49 UTC</createdTime>
+<generatorID>FD8F8F1C-B028-3AF3-DD02-1B69EC1FB9A1</generatorID>
+<ownerDesignName>DE141-P-2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Start_Time" id="09F80290-A4C3-184C-E360-95574D90ACF7">
+<createdBy>Saheba</createdBy>
+<createdTime>2567-04-20 11:23:49 UTC</createdTime>
+<generatorID>060B5253-56D6-79A9-51FE-78C2CE34AFFB</generatorID>
+<ownerDesignName>DE141-P-2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,3,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="End_Time" id="0E17664C-0D68-B904-8E17-E107F3E14578">
+<createdBy>Saheba</createdBy>
+<createdTime>2567-04-20 11:23:49 UTC</createdTime>
+<generatorID>F1BB2E87-58C6-0912-9733-97B24CB1FB01</generatorID>
+<ownerDesignName>DE141-P-2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,3,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Exam_duration" id="9C1606F1-8E0D-FD88-85C9-2D2D5B89CF1A">
+<createdBy>Saheba</createdBy>
+<createdTime>2567-04-20 11:23:49 UTC</createdTime>
+<generatorID>30AD4A0A-DA29-39B2-88AB-99030F1DDEBC</generatorID>
+<ownerDesignName>DE141-P-2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,3,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SUBJECT_Subject_ID" id="FDB1132A-F9C9-C9F9-A672-8FE067B27861">
+<createdBy>Saheba</createdBy>
+<createdTime>2567-04-20 11:23:49 UTC</createdTime>
+<generatorID>38A6C389-CD7F-B422-8C96-AAA76CF6EC2A</generatorID>
+<ownerDesignName>DE141-P-2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C93A3F3C-7C7F-11A6-C288-FFEE6954C104" referredColumn="BDB36D93-A848-2594-596B-95E0035E6458"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="B0ED4C88-A38F-A064-C03F-307B0ED25570" name="EXAM_PK">
+<createdBy>Saheba</createdBy>
+<createdTime>2567-04-20 11:23:49 UTC</createdTime>
+<generatorID>F6B3E996-8060-E675-4A86-A7E93720F104</generatorID>
+<ownerDesignName>DE141-P-2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="62C51C05-B7D9-7D8D-71D4-7EE4E2C6A109"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="610FB557-6342-AAE4-932C-FC2DFDE3B0D1" name="EXAM_SUBJECT_FK">
+<createdBy>Saheba</createdBy>
+<createdTime>2567-04-20 11:23:49 UTC</createdTime>
+<generatorID>39AF4BC1-9A5A-8793-37F4-2C2082EEE1E8</generatorID>
+<ownerDesignName>DE141-P-2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FDB1132A-F9C9-C9F9-A672-8FE067B27861"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

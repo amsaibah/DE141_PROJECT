@@ -1,0 +1,92 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C8F1CC36-BBDA-7E19-C351-426E0CC6A7AA" name="EXAM_SCHEDULE">
+<createdBy>Saheba</createdBy>
+<createdTime>2567-04-20 11:23:49 UTC</createdTime>
+<generatorID>96AE958A-9F18-5691-3B3A-BAEA0E49D50B</generatorID>
+<ownerDesignName>DE141-P-2</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Schedule_ID" id="B52E4DDE-728B-461D-E1D1-6F759951A3FC">
+<createdBy>Saheba</createdBy>
+<createdTime>2567-04-20 11:23:49 UTC</createdTime>
+<generatorID>E1F4E4E7-D618-A603-8A07-4C3E1E8F8F3C</generatorID>
+<ownerDesignName>DE141-P-2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="EXAM_Exam_ID" id="14178D14-4DA6-4283-E1D4-C65B7C8D9693">
+<createdBy>Saheba</createdBy>
+<createdTime>2567-04-20 11:23:49 UTC</createdTime>
+<generatorID>B46FD444-FFBD-A731-56E8-13CC20FA23D3</generatorID>
+<ownerDesignName>DE141-P-2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0EB2575F-6FFB-A839-788F-382979F07CFA" referredColumn="62C51C05-B7D9-7D8D-71D4-7EE4E2C6A109"/>
+</associations>
+</Column>
+<Column name="LOCATION_Location_ID" id="FA3692F4-B3D1-1431-B6BA-C1315F8C78B0">
+<createdBy>Saheba</createdBy>
+<createdTime>2567-04-20 11:23:49 UTC</createdTime>
+<generatorID>612B6DE7-0046-032B-6DF5-F3696115AAC2</generatorID>
+<ownerDesignName>DE141-P-2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="042DE0B7-B539-BA90-B089-9C45B530505B" referredColumn="2D4F93B8-C535-7373-A727-24A1794306C9"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="C299755A-33E1-D95F-1B0B-F5552A83D729" name="EXAM_SCHEDULE_PK">
+<createdBy>Saheba</createdBy>
+<createdTime>2567-04-20 11:23:49 UTC</createdTime>
+<generatorID>B2DF23AE-C4BD-4424-3229-358BF9C25F7E</generatorID>
+<ownerDesignName>DE141-P-2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B52E4DDE-728B-461D-E1D1-6F759951A3FC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2060E5D1-9D70-A94A-CB6C-9D0A66716FE1" name="EXAM_SCHEDULE_EXAM_FK">
+<createdBy>Saheba</createdBy>
+<createdTime>2567-04-20 11:23:49 UTC</createdTime>
+<generatorID>3E56189D-8487-3EA9-26D8-20D1FDC7989B</generatorID>
+<ownerDesignName>DE141-P-2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="14178D14-4DA6-4283-E1D4-C65B7C8D9693"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F6C2D97B-C497-DDDA-E134-F1C9F1AB859D" name="EXAM_SCHEDULE_LOCATION_FK">
+<createdBy>Saheba</createdBy>
+<createdTime>2567-04-20 11:23:49 UTC</createdTime>
+<generatorID>8A306165-A22E-54E6-39E8-BBA7FB42E4D7</generatorID>
+<ownerDesignName>DE141-P-2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FA3692F4-B3D1-1431-B6BA-C1315F8C78B0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

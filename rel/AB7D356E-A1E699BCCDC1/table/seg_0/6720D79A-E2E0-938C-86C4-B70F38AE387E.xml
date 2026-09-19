@@ -1,0 +1,145 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="6720D79A-E2E0-938C-86C4-B70F38AE387E" name="STUDENT">
+<createdBy>Saheba</createdBy>
+<createdTime>2567-04-17 17:51:52 UTC</createdTime>
+<generatorID>14AEC900-C0AA-7AE1-8947-DCC2A87B4D5E</generatorID>
+<ownerDesignName>DE141_PROJECT</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Student_ID" id="038A1BB0-5963-A710-8963-D44FD9B62D46">
+<createdBy>Saheba</createdBy>
+<createdTime>2567-04-17 17:51:52 UTC</createdTime>
+<generatorID>8CD204D8-3E59-77DF-D893-DCC8C051375F</generatorID>
+<ownerDesignName>DE141_PROJECT</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fname" id="6E31B767-A268-DFC4-E289-8D1D333328A7">
+<createdBy>Saheba</createdBy>
+<createdTime>2567-04-17 17:51:52 UTC</createdTime>
+<generatorID>43A30BBA-9FF4-4D7B-FD6C-1C06BC4647AE</generatorID>
+<ownerDesignName>DE141_PROJECT</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="lname" id="F465E464-E608-2167-B8FD-87F890785014">
+<createdBy>Saheba</createdBy>
+<createdTime>2567-04-17 17:51:52 UTC</createdTime>
+<generatorID>1F34B38A-33FE-7627-B353-A2B7A7F33F0F</generatorID>
+<ownerDesignName>DE141_PROJECT</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="School" id="DCB555DB-687F-2B7C-5573-9F9EC87C7DEB">
+<createdBy>Saheba</createdBy>
+<createdTime>2567-04-17 17:51:52 UTC</createdTime>
+<generatorID>E8A19A84-BE9D-A441-64F0-3E368DE611F1</generatorID>
+<ownerDesignName>DE141_PROJECT</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>150</dataTypeSize>
+<ownDataTypeParameters>150,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Province" id="075E1E90-0CAF-EC23-60A3-E55BBCF1ED90">
+<createdBy>Saheba</createdBy>
+<createdTime>2567-04-17 17:51:52 UTC</createdTime>
+<generatorID>0D28D787-6BC4-D969-AEF3-E3A8C934B6FC</generatorID>
+<ownerDesignName>DE141_PROJECT</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>150</dataTypeSize>
+<ownDataTypeParameters>150,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Address" id="D829EF9B-EE18-A5CE-F2A6-0102F35AF7BE">
+<createdBy>Saheba</createdBy>
+<createdTime>2567-04-17 17:51:52 UTC</createdTime>
+<generatorID>9F24E342-5683-9D49-6D1D-3F4C04E48CDE</generatorID>
+<ownerDesignName>DE141_PROJECT</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>150</dataTypeSize>
+<ownDataTypeParameters>150,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Grade" id="A45FE635-BD68-AFE8-851E-27E13F6481EC">
+<createdBy>Saheba</createdBy>
+<createdTime>2567-04-17 17:51:52 UTC</createdTime>
+<generatorID>852FF96E-3845-4454-4C9E-AA61EE6BEA3D</generatorID>
+<ownerDesignName>DE141_PROJECT</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Contact_info" id="69C8DE99-3C5A-130F-A751-055A5A9328E5">
+<createdBy>Saheba</createdBy>
+<createdTime>2567-04-17 17:51:52 UTC</createdTime>
+<generatorID>268007E1-9088-E12D-00D3-0559EBC55F3B</generatorID>
+<ownerDesignName>DE141_PROJECT</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>150</dataTypeSize>
+<ownDataTypeParameters>150,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Register_status" id="E922BDDA-F277-F882-0B14-C2CEA3973BAC">
+<createdBy>Saheba</createdBy>
+<createdTime>2567-04-17 17:51:52 UTC</createdTime>
+<generatorID>DCAD70A1-3690-9AC8-0E95-B7798B9278E9</generatorID>
+<ownerDesignName>DE141_PROJECT</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Grad_year" id="C9994DE9-01A1-0C5E-18F4-7C2610AD3F04">
+<createdBy>Saheba</createdBy>
+<createdTime>2567-04-17 17:51:52 UTC</createdTime>
+<generatorID>F75FD6B3-5D2A-4995-53B5-4DA333D434BC</generatorID>
+<ownerDesignName>DE141_PROJECT</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="24823E66-A1BC-DA92-FD54-8095234418CB" name="STUDENT_PK">
+<createdBy>Saheba</createdBy>
+<createdTime>2567-04-17 17:51:52 UTC</createdTime>
+<generatorID>D6AED000-A97C-64D3-69FA-5F6C6106A5BA</generatorID>
+<ownerDesignName>DE141_PROJECT</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="038A1BB0-5963-A710-8963-D44FD9B62D46"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

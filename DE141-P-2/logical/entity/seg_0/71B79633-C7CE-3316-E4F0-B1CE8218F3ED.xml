@@ -1,0 +1,175 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="71B79633-C7CE-3316-E4F0-B1CE8218F3ED" name="STUDENT">
+<createdBy>Saheba</createdBy>
+<createdTime>2567-04-20 11:04:41 UTC</createdTime>
+<ownerDesignName>DE141-P-2</ownerDesignName>
+<engineerTo>
+<item key="DD3785C8-3A7B-BFD4-BB16-193A806F763C" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Student_ID" id="F1048638-71BC-385B-6805-D9843EA94E8F">
+<createdBy>Saheba</createdBy>
+<createdTime>2567-04-20 11:04:49 UTC</createdTime>
+<ownerDesignName>DE141-P-2</ownerDesignName>
+<engineerTo>
+<item key="DD3785C8-3A7B-BFD4-BB16-193A806F763C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Fname" id="016B76A2-FEFF-D182-63AD-66D861DC5DD7">
+<createdBy>Saheba</createdBy>
+<createdTime>2567-04-20 11:05:10 UTC</createdTime>
+<ownerDesignName>DE141-P-2</ownerDesignName>
+<engineerTo>
+<item key="DD3785C8-3A7B-BFD4-BB16-193A806F763C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Lname" id="CD2C87A6-BFF8-D742-5F34-A5D68AC450DE">
+<createdBy>Saheba</createdBy>
+<createdTime>2567-04-20 11:05:31 UTC</createdTime>
+<ownerDesignName>DE141-P-2</ownerDesignName>
+<engineerTo>
+<item key="DD3785C8-3A7B-BFD4-BB16-193A806F763C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="School" id="9EFAECC6-3036-F98F-A121-8FE4C57F4CA8">
+<createdBy>Saheba</createdBy>
+<createdTime>2567-04-20 11:05:46 UTC</createdTime>
+<ownerDesignName>DE141-P-2</ownerDesignName>
+<engineerTo>
+<item key="DD3785C8-3A7B-BFD4-BB16-193A806F763C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Address" id="E285305F-6792-38FC-65C2-E2B00612325B">
+<createdBy>Saheba</createdBy>
+<createdTime>2567-04-20 11:06:04 UTC</createdTime>
+<ownerDesignName>DE141-P-2</ownerDesignName>
+<engineerTo>
+<item key="DD3785C8-3A7B-BFD4-BB16-193A806F763C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>250</dataTypeSize>
+<ownDataTypeParameters>250,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Province" id="5CAE581E-2925-A29C-FE75-9FC7945F3C58">
+<createdBy>Saheba</createdBy>
+<createdTime>2567-04-20 11:06:31 UTC</createdTime>
+<ownerDesignName>DE141-P-2</ownerDesignName>
+<engineerTo>
+<item key="DD3785C8-3A7B-BFD4-BB16-193A806F763C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Grade" id="261FB868-D871-1EBD-248F-70A2F7104544">
+<createdBy>Saheba</createdBy>
+<createdTime>2567-04-20 11:07:04 UTC</createdTime>
+<ownerDesignName>DE141-P-2</ownerDesignName>
+<engineerTo>
+<item key="DD3785C8-3A7B-BFD4-BB16-193A806F763C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Phone_No" id="48DED483-2FF9-79B0-A7AF-132147B8F410">
+<createdBy>Saheba</createdBy>
+<createdTime>2567-04-20 11:07:37 UTC</createdTime>
+<ownerDesignName>DE141-P-2</ownerDesignName>
+<engineerTo>
+<item key="DD3785C8-3A7B-BFD4-BB16-193A806F763C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Email" id="82A7AD3A-8B6B-05DD-3EE6-DD5EF0F6C64B">
+<createdBy>Saheba</createdBy>
+<createdTime>2567-04-20 11:09:30 UTC</createdTime>
+<ownerDesignName>DE141-P-2</ownerDesignName>
+<engineerTo>
+<item key="DD3785C8-3A7B-BFD4-BB16-193A806F763C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Register_Status" id="3D67E7D4-B0C2-B496-FDB5-1BF0CECF81B3">
+<createdBy>Saheba</createdBy>
+<createdTime>2567-04-20 11:10:04 UTC</createdTime>
+<ownerDesignName>DE141-P-2</ownerDesignName>
+<engineerTo>
+<item key="DD3785C8-3A7B-BFD4-BB16-193A806F763C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Grad_Year" id="ADF39E7E-78FD-A7F4-4A1F-722F22873FDD">
+<createdBy>Saheba</createdBy>
+<createdTime>2567-04-20 11:10:27 UTC</createdTime>
+<ownerDesignName>DE141-P-2</ownerDesignName>
+<engineerTo>
+<item key="DD3785C8-3A7B-BFD4-BB16-193A806F763C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="40324E84-9792-C58E-50D0-6B4D91684D20" name="STUDENT PK">
+<createdBy>Saheba</createdBy>
+<createdTime>2567-04-20 11:05:05 UTC</createdTime>
+<ownerDesignName>DE141-P-2</ownerDesignName>
+<engineerTo>
+<item key="DD3785C8-3A7B-BFD4-BB16-193A806F763C" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>F1048638-71BC-385B-6805-D9843EA94E8F</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

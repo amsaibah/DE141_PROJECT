@@ -1,0 +1,76 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="96AE958A-9F18-5691-3B3A-BAEA0E49D50B" name="EXAM_SCHEDULE">
+<createdBy>Saheba</createdBy>
+<createdTime>2567-04-20 10:59:47 UTC</createdTime>
+<ownerDesignName>DE141-P-2</ownerDesignName>
+<engineerTo>
+<item key="DD3785C8-3A7B-BFD4-BB16-193A806F763C" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Schedule_ID" id="E1F4E4E7-D618-A603-8A07-4C3E1E8F8F3C">
+<createdBy>Saheba</createdBy>
+<createdTime>2567-04-20 10:59:57 UTC</createdTime>
+<ownerDesignName>DE141-P-2</ownerDesignName>
+<engineerTo>
+<item key="DD3785C8-3A7B-BFD4-BB16-193A806F763C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Exam_ID1" id="B46FD444-FFBD-A731-56E8-13CC20FA23D3">
+<createdBy>Saheba</createdBy>
+<createdTime>2567-04-20 11:20:26 UTC</createdTime>
+<generatorID>3E56189D-8487-3EA9-26D8-20D1FDC7989B</generatorID>
+<ownerDesignName>DE141-P-2</ownerDesignName>
+<engineerTo>
+<item key="DD3785C8-3A7B-BFD4-BB16-193A806F763C" value="true"/>
+</engineerTo>
+<referedAttribute>DE0B47E2-6EB7-22E9-E096-391E994E58F1</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Location_ID" id="612B6DE7-0046-032B-6DF5-F3696115AAC2">
+<createdBy>Saheba</createdBy>
+<createdTime>2567-04-20 11:22:51 UTC</createdTime>
+<generatorID>8A306165-A22E-54E6-39E8-BBA7FB42E4D7</generatorID>
+<ownerDesignName>DE141-P-2</ownerDesignName>
+<engineerTo>
+<item key="DD3785C8-3A7B-BFD4-BB16-193A806F763C" value="true"/>
+</engineerTo>
+<referedAttribute>6E42FB7F-78D6-82C1-9FCC-277E8A6601E5</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="B2DF23AE-C4BD-4424-3229-358BF9C25F7E" name="EXAM_SCHEDULE PK">
+<createdBy>Saheba</createdBy>
+<createdTime>2567-04-20 11:00:22 UTC</createdTime>
+<ownerDesignName>DE141-P-2</ownerDesignName>
+<engineerTo>
+<item key="DD3785C8-3A7B-BFD4-BB16-193A806F763C" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>E1F4E4E7-D618-A603-8A07-4C3E1E8F8F3C</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

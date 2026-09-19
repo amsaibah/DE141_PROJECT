@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="EXAM SCHEDULE EXAM FK" directorySegmentName="seg_0" id="0B42D515-DD60-D237-DE58-BFC759BFCE29">
+<createdBy>Saheba</createdBy>
+<createdTime>2567-04-16 19:02:38 UTC</createdTime>
+<ownerDesignName>DE141_PROJECT</ownerDesignName>
+<engineerTo>
+<item key="AB7D356E-7013-F453-F4B7-A1E699BCCDC1" value="true"/>
+</engineerTo>
+<sourcePk>D23D9380-2C9F-4ACC-CB8B-4EF243F91AD9</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>02B3335D-6436-0D71-CC22-92831E17856A</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>54D3A116-37A1-0FCF-5E7D-DEFD17BF00E5</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

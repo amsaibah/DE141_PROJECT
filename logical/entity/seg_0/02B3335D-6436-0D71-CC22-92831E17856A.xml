@@ -1,0 +1,128 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="02B3335D-6436-0D71-CC22-92831E17856A" name="EXAM">
+<createdBy>Saheba</createdBy>
+<createdTime>2567-04-16 17:24:56 UTC</createdTime>
+<ownerDesignName>DE141_PROJECT</ownerDesignName>
+<engineerTo>
+<item key="AB7D356E-7013-F453-F4B7-A1E699BCCDC1" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Exam ID" id="42E755AD-E7DB-A298-C8DA-57A2A1F8A956">
+<createdBy>Saheba</createdBy>
+<createdTime>2567-04-16 17:25:36 UTC</createdTime>
+<ownerDesignName>DE141_PROJECT</ownerDesignName>
+<engineerTo>
+<item key="AB7D356E-7013-F453-F4B7-A1E699BCCDC1" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Subject ID" id="329C2A5F-547D-234D-DC14-6D13BA657137">
+<createdBy>Saheba</createdBy>
+<createdTime>2567-04-16 17:39:22 UTC</createdTime>
+<ownerDesignName>DE141_PROJECT</ownerDesignName>
+<engineerTo>
+<item key="AB7D356E-7013-F453-F4B7-A1E699BCCDC1" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Subject name" id="1ED19FA0-35BC-283A-8D07-481895AFE118">
+<createdBy>Saheba</createdBy>
+<createdTime>2567-04-16 17:40:53 UTC</createdTime>
+<ownerDesignName>DE141_PROJECT</ownerDesignName>
+<engineerTo>
+<item key="AB7D356E-7013-F453-F4B7-A1E699BCCDC1" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Exam date" id="B26AD25F-C9C6-D44B-0273-B6759BF7023F">
+<createdBy>Saheba</createdBy>
+<createdTime>2567-04-16 17:45:39 UTC</createdTime>
+<ownerDesignName>DE141_PROJECT</ownerDesignName>
+<engineerTo>
+<item key="AB7D356E-7013-F453-F4B7-A1E699BCCDC1" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Exam time" id="8850934C-8974-F6E4-9EEE-5D865FE9E0B0">
+<createdBy>Saheba</createdBy>
+<createdTime>2567-04-16 17:49:24 UTC</createdTime>
+<ownerDesignName>DE141_PROJECT</ownerDesignName>
+<engineerTo>
+<item key="AB7D356E-7013-F453-F4B7-A1E699BCCDC1" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,3,2</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Exam duration" id="E65FF567-A5BF-128B-018E-5A421D13FA5F">
+<createdBy>Saheba</createdBy>
+<createdTime>2567-04-16 17:54:13 UTC</createdTime>
+<ownerDesignName>DE141_PROJECT</ownerDesignName>
+<engineerTo>
+<item key="AB7D356E-7013-F453-F4B7-A1E699BCCDC1" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,3,2</ownDataTypeParameters>
+</Attribute>
+<Attribute name="SUBJECT Subject ID" id="977D184F-829C-3260-47BB-BC2EABCF571E">
+<createdBy>Saheba</createdBy>
+<createdTime>2567-04-16 18:52:16 UTC</createdTime>
+<generatorID>E927B7FD-3FD3-7C65-1A41-E78D65839BAF</generatorID>
+<ownerDesignName>DE141_PROJECT</ownerDesignName>
+<engineerTo>
+<item key="AB7D356E-7013-F453-F4B7-A1E699BCCDC1" value="true"/>
+</engineerTo>
+<referedAttribute>6A805A71-97EA-59E8-4949-19ACCD20827A</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="D23D9380-2C9F-4ACC-CB8B-4EF243F91AD9" name="EXAM PK">
+<createdBy>Saheba</createdBy>
+<createdTime>2567-04-16 17:30:31 UTC</createdTime>
+<ownerDesignName>DE141_PROJECT</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="AB7D356E-7013-F453-F4B7-A1E699BCCDC1" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>42E755AD-E7DB-A298-C8DA-57A2A1F8A956</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

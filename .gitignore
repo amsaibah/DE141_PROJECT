@@ -1,0 +1,8 @@
+# Oracle SQL Developer Data Modeler transient/workspace state (not part of the model)
+*.local
+dmd_open.local
+ChangeRequests.local
+
+# OS junk
+Thumbs.db
+desktop.ini

@@ -1,0 +1,140 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="2D2F8CB6-5908-2913-128B-EC0FE152D34D" name="EXAM_REGISTRATION">
+<createdBy>Saheba</createdBy>
+<createdTime>2567-04-20 11:23:49 UTC</createdTime>
+<generatorID>D224BD90-E7E8-CD28-0E76-6A360A1A26C7</generatorID>
+<ownerDesignName>DE141-P-2</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Registration_ID" id="0EA5D634-2F8B-4C0D-11E6-0DD8E2F4D281">
+<createdBy>Saheba</createdBy>
+<createdTime>2567-04-20 11:23:49 UTC</createdTime>
+<generatorID>0617C87A-6EF9-E0FE-9BD8-BB787C5E53DE</generatorID>
+<ownerDesignName>DE141-P-2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Exam_ID" id="519E4A4D-4C0C-D020-2076-4C58E66D4675">
+<createdBy>Saheba</createdBy>
+<createdTime>2567-04-20 11:23:49 UTC</createdTime>
+<generatorID>CAA5025D-A213-B9AA-F185-4B43D2BB892F</generatorID>
+<ownerDesignName>DE141-P-2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Student_ID" id="F9344DAC-B0EB-11D0-54A4-18963DBF94A9">
+<createdBy>Saheba</createdBy>
+<createdTime>2567-04-20 11:23:49 UTC</createdTime>
+<generatorID>6681A4E9-DB9B-3408-09E3-A345AD4228D7</generatorID>
+<ownerDesignName>DE141-P-2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Registration_Date" id="7B791F0E-BA0F-EF2B-6A31-1E41653A1CA3">
+<createdBy>Saheba</createdBy>
+<createdTime>2567-04-20 11:23:49 UTC</createdTime>
+<generatorID>2712AF50-2324-C0F8-50D3-206535A22621</generatorID>
+<ownerDesignName>DE141-P-2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Registration_Time" id="543C72C9-FA55-7689-4AFA-8FB934DB7204">
+<createdBy>Saheba</createdBy>
+<createdTime>2567-04-20 11:23:49 UTC</createdTime>
+<generatorID>C83E5864-E385-BEF5-7A5F-4D1039B60225</generatorID>
+<ownerDesignName>DE141-P-2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,3,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="EXAM_Exam_ID" id="4FFB4243-EC62-4243-67BA-97B7359FF7CB">
+<createdBy>Saheba</createdBy>
+<createdTime>2567-04-20 11:23:49 UTC</createdTime>
+<generatorID>E0CEBB1A-6F37-E621-026A-058E01B74823</generatorID>
+<ownerDesignName>DE141-P-2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="6C823E8F-0C7C-3B3F-BEF3-F5794169E468" referredColumn="62C51C05-B7D9-7D8D-71D4-7EE4E2C6A109"/>
+</associations>
+</Column>
+<Column name="STUDENT_Student_ID" id="C8C7D5AA-6907-AB67-8F39-BE3F6FAAE6AA">
+<createdBy>Saheba</createdBy>
+<createdTime>2567-04-20 11:23:49 UTC</createdTime>
+<generatorID>8D0DAFF1-20A8-036A-3CE8-285D0C0E3D71</generatorID>
+<ownerDesignName>DE141-P-2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="CBD02C74-00F3-EED7-747C-24B1A4F28179" referredColumn="E9C64EEC-0655-C726-C41F-178953567FDD"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="F87DECAC-56D3-0A82-B895-10C42D766DCC" name="EXAM_REGISTRATION_PK">
+<createdBy>Saheba</createdBy>
+<createdTime>2567-04-20 11:23:49 UTC</createdTime>
+<generatorID>16410F40-840B-6675-B326-C358CF71A140</generatorID>
+<ownerDesignName>DE141-P-2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0EA5D634-2F8B-4C0D-11E6-0DD8E2F4D281"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F12E88B9-55DB-1C13-65F8-900A4D41CE74" name="EXAM_REGISTRATION_EXAM_FK">
+<createdBy>Saheba</createdBy>
+<createdTime>2567-04-20 11:23:49 UTC</createdTime>
+<generatorID>465D0FB5-053A-391B-6CE9-D1E4F35E7914</generatorID>
+<ownerDesignName>DE141-P-2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4FFB4243-EC62-4243-67BA-97B7359FF7CB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="ECE3A261-B5FE-F8C6-A8A5-B6DF4F25DC63" name="EXAM_REGISTRATION_STUDENT_FK">
+<createdBy>Saheba</createdBy>
+<createdTime>2567-04-20 11:23:49 UTC</createdTime>
+<generatorID>AD933787-24E2-29CD-1561-8D7F14AFFD9F</generatorID>
+<ownerDesignName>DE141-P-2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C8C7D5AA-6907-AB67-8F39-BE3F6FAAE6AA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
